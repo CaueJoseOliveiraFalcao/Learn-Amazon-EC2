@@ -1,0 +1,86 @@
+
+EC2 = Amazon Elastic Compute Cloud
+
+oferece varios tipos de hardware
+
+
+instance= uma maquina virtual que roda na cloud da Amazon
+instance type = como vai ser  configurado o hardware da maquina
+instance family = agrupa configurações prontas para cada tipo de caso 
+        sub-family = agrupa combinações de processador e espaço usado
+
+virtual central processing (vCPU) = medida de capacidade de processamento e o dobro de nucleos da CPU 
+
+General purpose instances = um tipo de task manager para ver o uso dos hardwares
+
+
+
+
+
+Burstable instance options:  = usa instancias da familia T , quando a atividade excede a operação
+                                normal por um curto perildo de tempo ocorre um burst assim a 
+                                familia T excede um desempenho para aumentar acima do esperado 
+                                para nao travar a operação e depois volta ao normal
+
+                                sendo economico e quando neseceario ele exerce um desempenho 
+                                acima
+
+                                Começa com M , T , A
+
+Compute optimized = voltado para opreações de grande requisição de performance 
+                    exemplo de opreações que usam 
+
+                    -Batch processing workloads
+                    -Media transcoding
+                    -High performance web servers
+                    -High performance computing (HPC)
+                    -Scientific modeling
+                    -Dedicated gaming servers and ad server engines
+                    -Machine learn 
+
+                    Começa com C
+
+Memory Opitimed = oferece uma rapida performance para carregamentos que guarda grandes
+                  volumes de dados na memoria ram  
+
+                  R,X,High Memory Instance , Z
+
+Storage Opitimed = dediado para trabalhos com muita demanda sequentical de escrita e leitura de dados 
+                    no HD
+
+                I , D , H , D
+Acelerate computing = instancias que usam aceleradodere como co-procesaadores ou funções que performan 
+                        melhor a CPU como numeros decimais calculos processadores de grafico 
+                        filtro de pesquisa ,
+                 P , DL1 Tm , G5 ,G4 G3 , F1 ,VT1
+
+
+Instance Sizeing = juncao de vCPU , memory storage , nano utilizam menos cpu e memoram ram e large usam muita
+
+ex general purpose
+  t4g.nano = 2vCPU / 5GBRAM
+  t4g.micro = 2vCPU / 1GBRAM
+  t4g.small = 2vCPU / 1GBRAM
+  t4g.medium = 2vCPU / 4GBRAM
+  t4g.large = 2vCPU / 8GBRAM
+ex compute optimized
+  c5.xlarge = 4vCPU/8GBRAM
+  c5.2xlarge = 8vCPU/16GBRAM
+  c5.4xlarge = 16vCPU/32GBRAM
+ex memory optimized
+  r5g.xlarge = 4vCPU/32GBRAM
+  r6g.2.xlarge = 6vCPU/64GBRAM
+  r6b.4.xlarge = 16vCPU/128GBRAM
+
+
+Addtional caracteres 
+
+a - AMD processors
+g - AWS Graviton processors 
+i - Intel Processors 
+d - Instance Store Volumes
+n - Network Optimization
+b - Block storage optimization 
+e - Extra storage or memory 
+z - High frequency 
+
