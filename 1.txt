@@ -83,4 +83,3 @@ n - Network Optimization
 b - Block storage optimization 
 e - Extra storage or memory 
 z - High frequency 
-

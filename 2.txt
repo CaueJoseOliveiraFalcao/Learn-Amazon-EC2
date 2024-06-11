@@ -1,0 +1,6 @@
+Selecting the Correct Instance Type 
+
+
+Mudança de instancia 
+    caso seja outra arqitetura ou processador diference o processo 
+    vai ter que sre interronpido 
