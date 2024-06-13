@@ -4,3 +4,74 @@ Selecting the Correct Instance Type
 Mudança de instancia 
     caso seja outra arqitetura ou processador diference o processo 
     vai ter que sre interronpido 
+
+Instances Pricingis
+    On Demand 
+        paga pela capacidade computacional por hora/segundo
+
+        Recomendado quando 
+            baixo custo e flexibilidade 
+
+            primerira aplicação em EC2 
+
+    Spot
+        capacidade de computação extra com ate 90% de desconto sobre o ONdemand
+
+        Recomendado quando 
+            aplicativos que nao precisam rodar 24hrs 
+
+            aplicativospara rodar somente quando os preços de computação 
+            estiverem na meta que voce definiu 
+    
+    Saving Plans 
+        oferece um preco mais baixo que o ondemand mais em troca de um compromisso de 
+        1 ou 3 anos 
+
+    Reserved Instances 
+        desconto de 72% em relação a sobre demanda , fornecem uma reserva de capacidade 
+        quando usadas em uma zona de disponibilidade
+
+        tipos
+            Padrao 
+                72% de desconto mais nao e possivel trocar de familias e instancias 
+            Conversivel 
+                52% de desconto sendo possivel alterar instance fammilys , sistemas operacionais 
+                
+
+        recomendado quando 
+            systemas de longa duração com demanda estavel 
+            mimo de uso 
+
+    Saving Plans vs Reserved Instances 
+        Saving Plans Oferece 
+            Possibilita a troca de regioes 
+            adaptação automatica de mudanças de instancias
+            preco mais baixos no uso de instantcias 
+        
+        tipos de Saving Plans 
+            EC2 Instace Saving Plans
+                na regiao escolhida ela possibilia a troca de instancias com o mesmo benificio de desconto 
+            Compute Saving Plans 
+                se aplica idependene da regiao  ezona de disponibiliddade
+
+    Dedicated Hosts
+        basicamente um servior fisico EC2 dedicado para voce pode ajudar na redição de cusutos 
+        pois ele possibilita que voce use as suas licenças como Windows Server , Microsoft SQL 
+
+
+        Podem ser adquiridos de duas maneiras 
+            On-demand(hora)
+            ou
+            Como reserva ate 70% de desconto 
+
+        recomendado quando
+            Cargas de trabalho que exigem licencas atreladas ao servidor 
+            Casos de segurancas em que a carga de trabalho nao possa ser compartilhada com outro 
+            cliente 
+    
+    Resumo 
+        On-demand – você paga o preço total por segundo no lançamento.
+        Spot Instances  – Refere-se a recursos de instância não utilizados nos quais você pode fazer lances. Seu preço é determinado pela disponibilidade do mercado.
+        Reserved Instances – você concorda com uma configuração de instância específica por um período de 1 a 3 anos.
+        Dedicated Hosts – Você obtém um servidor físico completo.
+        Savings Plans – Você se compromete com uma certa quantidade de uso durante um período de 1 a 3 anos.
