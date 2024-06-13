@@ -11,7 +11,7 @@ instance family = agrupa configurações prontas para cada tipo de caso
 
 virtual central processing (vCPU) = medida de capacidade de processamento e o dobro de nucleos da CPU 
 
-General purpose instances = um tipo de task manager para ver o uso dos hardwares
+General purpose instances = instancias de uso geral focado em equilibro de hardware
 
 
 

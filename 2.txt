@@ -75,3 +75,4 @@ Instances Pricingis
         Reserved Instances – você concorda com uma configuração de instância específica por um período de 1 a 3 anos.
         Dedicated Hosts – Você obtém um servidor físico completo.
         Savings Plans – Você se compromete com uma certa quantidade de uso durante um período de 1 a 3 anos.
+

@@ -1,0 +1,35 @@
+AWS Computer Optimizer 
+    sistema de recomendação com base no uso do seu servidor 
+    recomandadno o melhor cenario pega os dados dos ultimos 
+    14 dias 
+
+    tipos : 
+
+        under provisioned
+            e considerado underProvisioned como quando um dos hardwares nao atende os requisitos 
+            de desepenho de sua carga de trabalho 
+        over provisioned 
+            e quando um hardware esta com muita folga de trabalho que possa ser reduzida sem causar 
+            under provisioned , podemso assim gerar custos adicionais 
+        Optimized
+            quando a instancia nao esta underProvisioned ou over provisioned ela esta otimizada 
+        None 
+            quanod ainda nao passou o prazo de 14 dias de avaliação do AWS Computer Opitimizer
+
+Pricing Calculator 
+    usado para criar estimativas de custo 
+Cost Explorer 
+    usado para estatistica de custos dos ultomos 12 meses 
+
+    Usage Reports / limits 
+        faz a notificação de custos de um 
+
+        Daily costs
+            mostra quanto voce gstou nos ultomos 6 meses e o previsto pro proximo mes 
+        Monthly cost linked account
+            monstra os ultoms 6 meses agurpados oeas suas respecrivas contas ou menbros 
+        Monthly const by service 
+            mostra os ultimos 6 meses agrupados por servico 
+        Monthly EC2 running hours costs and usage
+            mosntra o tempo ativo de instanciais 
+    
